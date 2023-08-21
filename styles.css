@@ -1,0 +1,113 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-image: url('abs-1850926_1280.jpg');
+}
+
+header {
+    height: 50px;
+    display: flex;
+    background-color: transparent;
+    border-radius: 16px;
+    padding: 10px;
+}
+
+.left .logimg {
+
+    height: 60px;
+    border-radius: 50%;
+
+}
+.left .logimg:hover{
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.mid {
+    display: block;
+    margin: auto;
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 32px;
+}
+
+.mid .navbar .tag {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    font-weight: bolder;
+    font-size: 25px;
+    border-radius: 16px;
+}
+
+.mid .navbar .tag:hover {
+    color: rgba(119, 136, 153, 0.45);
+    text-decoration:underline;
+}
+
+.right {
+    margin: 5px;
+}
+
+.buttons {
+    padding: 10px;
+    border-radius: 16px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: normal;
+}
+.buttons:hover{
+    border: 1px solid white;
+}
+.container{
+    position: absolute;
+    right: 150px;
+    top: 250px;
+    border: 4px solid white;
+    padding: 10px;
+    color: white;
+    border-radius: 16px;
+
+}
+.content{
+    margin: 20px;
+    height: 30px;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    padding: 5px;
+    color: white;
+    font-size: 15px;
+    background-color: transparent;
+    border: 2px solid white;
+}
+.heading{
+    font-size: 35px;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+.submitbt{
+    margin: 10px;
+    height: 20px;
+    width: 30%;
+    height: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    font-weight: bolder;
+    font-size: 20px;
+    background-color:transparent;
+    color: white;
+    border: 1px solid white ;
+}
+.formcontent{
+    border: 2px solid white;
+    border-radius: 8px ;
+}
+
